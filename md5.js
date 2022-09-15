@@ -295,10 +295,10 @@ function getPassword()
 
     if (i%100000==0)
     {
-      console.log(i+"/99999999");
+      console.log(i+"/500000000");
     }
     var result = hex_md5(name);
-    if (result=="")
+    if (result=="924228fe043ba840ab7782727f9e58bf")
     {
       console.log(name);
       break;
